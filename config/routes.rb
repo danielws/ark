@@ -1,4 +1,13 @@
 Ark::Application.routes.draw do
+  resources :users
+
+
+  resources :entries
+
+
+  resources :journals
+
+
   get "home/index"
 
   # The priority is based upon order of creation:
